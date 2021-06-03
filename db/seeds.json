@@ -1,158 +1,95 @@
 {
-  "books": [
+  "movies": [
     {
-      "id": 1,
-      "author": "Chinua Achebe",
-      "country": "Nigeria",
-      "language": "English",
-      "link": "https://en.wikipedia.org/wiki/Things_Fall_Apart",
-      "pages": 209,
-      "title": "Things Fall Apart",
-      "year": 1958,
-      "likes": 0
-    },
-    {
-      "id": 2,
-      "author": "Hans Christian Andersen",
-      "country": "Denmark",
-      "language": "Danish",
-      "link": "https://en.wikipedia.org/wiki/Fairy_Tales_Told_for_Children._First_Collection.",
-      "pages": 784,
-      "title": "Fairy tales",
-      "year": 1836,
-      "likes": 0
-    },
-    {
-      "id": 3,
-      "author": "Dante Alighieri",
-      "country": "Italy",
-      "language": "Italian",
-      "link": "https://en.wikipedia.org/wiki/Divine_Comedy",
-      "pages": 928,
-      "title": "The Divine Comedy",
-      "year": 1315,
-      "likes": 0
-    },
-    {
-      "id": 4,
-      "author": "Jane Austen",
-      "country": "United Kingdom",
-      "language": "English",
-      "link": "https://en.wikipedia.org/wiki/Pride_and_Prejudice",
-      "pages": 226,
-      "title": "Pride and Prejudice",
-      "year": 1813,
-      "likes": 0
-    },
-    {
-      "id": 5,
-      "author": "Samuel Beckett",
-      "country": "Republic of Ireland",
-      "language": "French, English",
-      "link": "https://en.wikipedia.org/wiki/Molloy_(novel)",
-      "pages": 256,
-      "title": "Molloy, Malone Dies, The Unnamable, the trilogy",
-      "year": 1952,
-      "likes": 0
-    },
+        "id": 1,
+        "title": "The Exorcist",
+        "year": 1973,
+        "image": "https://m.media-amazon.com/images/M/MV5BZDEwMmYxM2MtZGQyMy00NTRjLWJjMTMtYWM1NWU1ZWNhZTY0XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
+        "description": "This tale of an exorcism is based loosely on actual events. When young Regan starts acting odd -- levitating, speaking in tongues -- her worried mother seeks medical help, only to hit a dead end. A local priest, however, thinks the girl may be seized by the devil.",
+        "likes": 0,
+        "reviews": "'Is the film a provocation about the nature of good and evil, or horror claptrap?' -Peter T"
+      },
+      {
+        "id": 2,
+        "title": "The Shining",
+        "year": 1980,
+        "image": "https://cdn.shopify.com/s/files/1/1057/4964/products/the-shining-vintage-movie-poster-original-1-sheet-27x41-6789_764a8a24-1abc-4b49-9821-bc408f19c02e_300x@2x.jpg?v=1620507608",
+        "description": "Jack Torrance becomes winter caretaker at the isolated Overlook Hotel in Colorado, hoping to cure his writer's block. He settles in along with his wife, Wendy, and his son, Danny, who is plagued by psychic premonitions. As Jack's writing goes nowhere and Danny's visions become more disturbing, Jack discovers the hotel's dark secrets and begins to unravel into a homicidal maniac hell-bent on terrorizing his family.",
+        "likes": 0,
+        "reviews": "'Director Stanley Kubrick can make your own living room seem creepy and unfamiliar' -Kevin B"
+      },
+      {
+        "id": 3,
+        "title": "The Ring",
+        "year": 2002,
+        "image": "https://cdn.shopify.com/s/files/1/1416/8662/products/the_ring_2002_original_film_art_1200x.jpg?v=1569305997",
+        "description": "It is a remake of Hideo Nakata's 1998 Japanese horror film Ring, based on Koji Suzuki's 1991 novel of the same name. Follows a journalist who investigates a cursed videotape that seemingly kills the viewer seven days after watching it.",
+        "likes": 0,
+        "reviews": "'Director Gore Verbinski does an excellect job of letting our imaginations find portent and peril in the most mundane of actions, such as picking up groceries at the local corner store.' -Neil M"
+      },
+      {
+        "id": 4,
+        "title": "Hereditary",
+        "year": 2018,
+        "image": "https://images-na.ssl-images-amazon.com/images/I/91U6sekg9yL._AC_SY679_.jpg",
+        "description": "It follows a family haunted by a mysterious presence after the death of their secretive grandmother. When the matriarch of the Graham family passes away, her daughter and grandchildren begin to unravel cryptic and increasingly terrifying secrets about their ancestry, trying to outrun the sinister fate they have inherited.",
+        "likes": 0,
+        "reviews": "'Hereditary raises the bar on emotional agony. If you want to see things you can never un-see and feel pain you can never un-feel, here's the ultimate test.' -David E"
+      },
+      {
+        "id": 5,
+        "title": "Rosemary's Baby",
+        "year": 1968,
+        "image": "https://m.media-amazon.com/images/M/MV5BZmEwZGU2NzctYzlmNi00MGJkLWE3N2MtYjBlN2ZhMGJkZTZiXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
+        "description": "The film follows a young, pregnant wife in Manhattan who comes to suspect that her elderly neighbors are members of a Satanic cult, and are grooming her in order to use her baby for their rituals.",
+        "likes": 0,
+        "reviews": "'Roman Polanski's artful film renders an eerie and frightening world.' -Carly K"
+      },
     {
       "id": 6,
-      "author": "Giovanni Boccaccio",
-      "country": "Italy",
-      "language": "Italian",
-      "link": "https://en.wikipedia.org/wiki/The_Decameron",
-      "pages": 1024,
-      "title": "The Decameron",
-      "year": 1351,
-      "likes": 0
+      "title": "Carrie",
+      "year": 1976,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/81flC9O6c7L.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+      "description": "Carrie White, a shy, friendless teenage girl who is sheltered by her domineering, religious mother, unleashes her telekinetic powers after being humiliated by her classmates at her senior prom.",
+      "likes": 0,
+      "reviews": "Still disturbing, it still creeps me out and makes me dread it. It's unsettling, incredibly brutal, and satisfying by the end. - Brandon Collins"
     },
     {
       "id": 7,
-      "author": "Jorge Luis Borges",
-      "country": "Argentina",
-      "language": "Spanish",
-      "link": "https://en.wikipedia.org/wiki/Ficciones",
-      "pages": 224,
-      "title": "Ficciones",
-      "year": 1965,
-      "likes": 0
+      "title": "Get Out",
+      "year": 2017,
+      "image": "https://images.moviesanywhere.com/1eac8b1747c905f18fbc228725204309/1406b595-0ac4-4bd7-90c4-65113b6b157a.jpg",
+      "description": "Get Out follows Chris Washington (Kaluuya), a young black man who uncovers a disturbing secret when he meets the family of his white girlfriend, Rose Armitage (Williams).",
+      "likes": 0,
+      "reviews": "With a perfect balance of terror and comedy, this smart, slightly-satirical look on society and racism is a well crafted film that dives even deeper than you expect. - Jordy Sirkin"
     },
     {
       "id": 8,
-      "author": "Albert Camus",
-      "country": "Algeria, French Empire",
-      "language": "French",
-      "link": "https://en.wikipedia.org/wiki/The_Stranger_(novel)",
-      "pages": 185,
-      "title": "The Stranger",
-      "year": 1942,
-      "likes": 0
+      "title": "Candyman",
+      "year": 1992,
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/89/Candymanposter.jpg",
+      "description": "The Candyman, a murderous soul with a hook for a hand, is accidentally summoned to reality by a skeptic grad student researching the monster's myth.",
+      "likes": 0,
+      "reviews": "The premise is highly original, the atmosphere terrifying, and the acting superb, especially considering the subgenre and its popularity for poor performances. - Mike Massle"
     },
     {
       "id": 9,
-      "author": "Miguel de Cervantes",
-      "country": "Spain",
-      "language": "Spanish",
-      "link": "https://en.wikipedia.org/wiki/Don_Quixote",
-      "pages": 1056,
-      "title": "Don Quijote De La Mancha",
-      "year": 1610,
-      "likes": 0
+      "title": "The Birds",
+      "year": 1963,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/c0/The_Birds_original_poster.jpg",
+      "description": "A wealthy San Francisco socialite pursues a potential boyfriend to a small Northern California town that slowly takes a turn for the bizarre when birds of all kinds suddenly begin to attack people.",
+      "likes": 0,
+      "reviews": "Hitchcock takes a long time to get his mood established, but the terror really chills the blood before the perplexing finale. - Clyde Gilmour"
     },
     {
       "id": 10,
-      "author": "Geoffrey Chaucer",
-      "country": "England",
-      "language": "English",
-      "link": "https://en.wikipedia.org/wiki/The_Canterbury_Tales",
-      "pages": 544,
-      "title": "The Canterbury Tales",
-      "year": 1450,
-      "likes": 0
-    },
-    {
-      "id": 11,
-      "author": "Anton Chekhov",
-      "country": "Russia",
-      "language": "Russian",
-      "link": "https://en.wikipedia.org/wiki/List_of_short_stories_by_Anton_Chekhov",
-      "pages": 194,
-      "title": "Stories",
-      "year": 1886,
-      "likes": 0
-    },
-    {
-      "id": 12,
-      "author": "Joseph Conrad",
-      "country": "United Kingdom",
-      "language": "English",
-      "link": "https://en.wikipedia.org/wiki/Nostromo",
-      "pages": 320,
-      "title": "Nostromo",
-      "year": 1904,
-      "likes": 0
-    },
-    {
-      "id": 13,
-      "author": "Charles Dickens",
-      "country": "United Kingdom",
-      "language": "English",
-      "link": "https://en.wikipedia.org/wiki/Great_Expectations",
-      "pages": 194,
-      "title": "Great Expectations",
-      "year": 1861,
-      "likes": 0
-    },
-    {
-      "id": 14,
-      "author": "Denis Diderot",
-      "country": "France",
-      "language": "French",
-      "link": "https://en.wikipedia.org/wiki/Jacques_the_Fatalist",
-      "pages": 596,
-      "title": "Jacques the Fatalist",
-      "year": 1796,
-      "likes": 0
+      "title": "The Lost Boys",
+      "year": 1987,
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/b6/Lost_boys.jpg",
+      "description": "After moving to a new town, two brothers discover that the area is a haven for vampires.",
+      "likes": 0,
+      "reviews": "There is a ton of gore, a bit of mystery, and The Lost Boys manages to be scary without crossing the line into campy. - Jennifer Lind-Westbrook"
     }
+    
   ]
 }
